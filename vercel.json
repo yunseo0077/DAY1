@@ -1,4 +1,7 @@
 {
-  "framework": "other",
-  "cleanUrls": true
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
 }
